@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities;
+﻿namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
 
 internal class ForSaleRanking
 {

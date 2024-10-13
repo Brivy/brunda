@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Configurations;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Constants;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities;
+﻿using Funda.Assigment.Repositories.Ranking.EntityFramework.Configurations;
+using Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
+using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework;
+namespace Funda.Assigment.Repositories.Ranking.EntityFramework;
 
 internal class RankingContext : DbContext
 {

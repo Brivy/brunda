@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Repositories.RealEstateAgentRanker.Contracts.Models;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.Contracts.Repositories;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities;
+﻿using Funda.Assigment.Repositories.Ranking.Contracts.Models;
+using Funda.Assigment.Repositories.Ranking.Contracts.Repositories;
+using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Repositories;
+namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Repositories;
 
 internal class RankingRepository(RankingContext context) : IRankingRepository
 {

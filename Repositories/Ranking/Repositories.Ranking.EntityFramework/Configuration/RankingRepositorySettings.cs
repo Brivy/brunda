@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Configuration;
+namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Configuration;
 
 internal record RankingRepositorySettings
 {
