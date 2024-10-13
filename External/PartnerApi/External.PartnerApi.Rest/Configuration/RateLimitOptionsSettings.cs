@@ -5,7 +5,7 @@ namespace Funda.Assigment.External.PartnerApi.Rest.Configuration;
 internal record RateLimitOptionsSettings
 {
     [Required]
-    public required int PermitLimt { get; init; }
+    public required int PermitLimit { get; init; }
     [Required]
-    public required TimeSpan LimtiWindow { get; init; }
+    public required TimeSpan LimitWindow { get; init; }
 }

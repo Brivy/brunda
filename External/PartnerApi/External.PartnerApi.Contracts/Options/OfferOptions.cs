@@ -2,7 +2,7 @@
 
 namespace Funda.Assigment.External.PartnerApi.Contracts.Options;
 
-public record OfferOptionsModel
+public record OfferOptions
 {
     public ResidenceContractType ResidenceContractType { get; init; }
     public string? Location { get; init; }

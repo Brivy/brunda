@@ -5,7 +5,7 @@ namespace Funda.Assigment.External.PartnerApi.Rest.Extensions;
 
 internal static class OfferOptionsModelExtensions
 {
-    public static OfferQueryParameters ToQueryParameters(this OfferOptionsModel offerOptions)
+    public static OfferQueryParameters ToQueryParameters(this OfferOptions offerOptions)
     {
         var searchQuery = !string.IsNullOrWhiteSpace(offerOptions.Location)
             ? $"/{offerOptions.Location}/"

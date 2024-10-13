@@ -7,4 +7,10 @@
 		<RootNamespace>Funda.Assigment.$(MSBuildProjectName)</RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\External\PartnerApi\External.PartnerApi.Contracts\External.PartnerApi.Contracts.csproj" />
+	  <ProjectReference Include="..\..\..\Repositories\Ranking\Repositories.Ranking.EntityFramework\Repositories.Ranking.EntityFramework.csproj" />
+	  <ProjectReference Include="..\Business.Ranking.Contracts\Business.Ranking.Contracts.csproj" />
+	</ItemGroup>
+
 </Project>
