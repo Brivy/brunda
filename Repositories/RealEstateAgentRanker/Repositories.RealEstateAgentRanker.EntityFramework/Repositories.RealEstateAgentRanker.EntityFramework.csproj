@@ -7,4 +7,18 @@
 		<RootNamespace>Funda.Assigment.$(MSBuildProjectName)</RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\Configuration\Configuration.Common\Configuration.Common.csproj" />
+	  <ProjectReference Include="..\Repositories.RealEstateAgentRanker.Contracts\Repositories.RealEstateAgentRanker.Contracts.csproj" />
+	</ItemGroup>
+
 </Project>

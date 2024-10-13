@@ -45,9 +45,8 @@ internal class OfferService(
                         .GroupBy(x => x.RealEstateAgentId)
                         .Select(x => new RealEstateAgentSummaryModel
                         {
-                            RealEstateAgentId = x.Key,
                             RealEstateAgentName = x.First().RealEstateAgentName,
-                            ResidencesForSaleCount = x.Count()
+                            ForSaleCount = x.Count()
                         }).ToList();
                 }
                 catch (ApiException ex)
