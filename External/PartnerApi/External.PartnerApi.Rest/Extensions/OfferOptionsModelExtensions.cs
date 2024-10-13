@@ -1,0 +1,27 @@
+﻿using Funda.Assigment.External.PartnerApi.Contracts.Options;
+using Funda.Assigment.External.PartnerApi.Rest.QueryParameters;
+
+namespace Funda.Assigment.External.PartnerApi.Rest.Extensions;
+
+internal static class OfferOptionsModelExtensions
+{
+    public static OfferQueryParameters ToQueryParameters(this OfferOptionsModel offerOptions)
+    {
+        var searchQuery = !string.IsNullOrWhiteSpace(offerOptions.Location)
+            ? $"/{offerOptions.Location}/"
+            : null;
+
+        if (searchQuery != null && offerOptions.HasGarden)
+        {
+            searchQuery += "tuin/";
+        }
+
+        return new OfferQueryParameters
+        {
+            ResidenceContractType = offerOptions.ResidenceContractType.ToQueryParameterName(),
+            SearchQuery = searchQuery,
+            Page = offerOptions.Page,
+            PageSize = offerOptions.PageSize
+        };
+    }
+}
