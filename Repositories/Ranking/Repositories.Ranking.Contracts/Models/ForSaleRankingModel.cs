@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.RealEstateAgentRanker.Contracts.Models;
+﻿namespace Funda.Assigment.Repositories.Ranking.Contracts.Models;
 
 public record ForSaleRankingModel
 {

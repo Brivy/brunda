@@ -1,8 +1,8 @@
-﻿using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities;
+﻿using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Configurations;
+namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Configurations;
 
 internal class ForSaleWithGardenRankingConfiguration : IEntityTypeConfiguration<ForSaleWithGardenRanking>
 {

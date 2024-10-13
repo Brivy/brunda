@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Constants;
+﻿namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
 
 internal static class DatabaseConstants
 {

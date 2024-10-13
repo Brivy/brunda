@@ -1,6 +1,6 @@
-﻿using Funda.Assigment.Repositories.RealEstateAgentRanker.Contracts.Models;
+﻿using Funda.Assigment.Repositories.Ranking.Contracts.Models;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.Contracts.Repositories;
+namespace Funda.Assigment.Repositories.Ranking.Contracts.Repositories;
 
 public interface IRankingRepository
 {

@@ -1,11 +1,11 @@
 ﻿using Funda.Assigment.Configuration.Common.Extensions;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Configuration;
-using Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Constants;
+using Funda.Assigment.Repositories.Ranking.EntityFramework.Configuration;
+using Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Extensions;
+namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Extensions;
 
 public static class ServiceCollectionExtensions
 {

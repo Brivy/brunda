@@ -18,7 +18,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\..\..\Configuration\Configuration.Common\Configuration.Common.csproj" />
-	  <ProjectReference Include="..\Repositories.RealEstateAgentRanker.Contracts\Repositories.RealEstateAgentRanker.Contracts.csproj" />
+	  <ProjectReference Include="..\Repositories.Ranking.Contracts\Repositories.Ranking.Contracts.csproj" />
 	</ItemGroup>
 
 </Project>

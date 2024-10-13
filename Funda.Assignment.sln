@@ -15,23 +15,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "External.PartnerApi.Contrac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{5BF029F8-6633-4943-B6BA-C1FAC4B01B48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.RealEstateAgentRanker.EntityFramework", "Repositories\RealEstateAgentRanker\Repositories.RealEstateAgentRanker.EntityFramework\Repositories.RealEstateAgentRanker.EntityFramework.csproj", "{8E11A64F-C466-4D4C-AD4F-520418DC2666}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.Ranking.EntityFramework", "Repositories\Ranking\Repositories.Ranking.EntityFramework\Repositories.Ranking.EntityFramework.csproj", "{8E11A64F-C466-4D4C-AD4F-520418DC2666}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0ABF6BF5-3649-4D4D-B99E-3B2AF3D98320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.RealEstateAgentRanker.Contracts", "Repositories\RealEstateAgentRanker\Repositories.RealEstateAgentRanker.Contracts\Repositories.RealEstateAgentRanker.Contracts.csproj", "{491D1225-2889-483B-A4DC-5370F875C0A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories.Ranking.Contracts", "Repositories\Ranking\Repositories.Ranking.Contracts\Repositories.Ranking.Contracts.csproj", "{491D1225-2889-483B-A4DC-5370F875C0A2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RealEstateAgentRanker", "RealEstateAgentRanker", "{5C8A0DDD-428C-408A-A2D9-B52DE1A86350}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ranking", "Ranking", "{5C8A0DDD-428C-408A-A2D9-B52DE1A86350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.RealEstateAgentRanker", "Business\RealEstateAgentRanker\Business.RealEstateAgentRanker\Business.RealEstateAgentRanker.csproj", "{995CF89B-B309-4F79-B5A1-2E3218E17C68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Ranking", "Business\Ranking\Business.Ranking\Business.Ranking.csproj", "{995CF89B-B309-4F79-B5A1-2E3218E17C68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.RealEstateAgentRanker.Contracts", "Business\RealEstateAgentRanker\Business.RealEstateAgentRanker.Contracts\Business.RealEstateAgentRanker.Contracts.csproj", "{B67BB104-2D68-4269-9D3E-E61C85F2CE4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Ranking.Contracts", "Business\Ranking\Business.Ranking.Contracts\Business.Ranking.Contracts.csproj", "{B67BB104-2D68-4269-9D3E-E61C85F2CE4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartnerApi", "PartnerApi", "{509A196D-9D6E-4BC7-8910-946EB1ADF2D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{51AE942B-F432-4076-8C88-1BF3C5295F7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RealEstateAgentRanker", "RealEstateAgentRanker", "{2ECB181A-2F86-4B30-B77F-D92531FFC3CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ranking", "Ranking", "{2ECB181A-2F86-4B30-B77F-D92531FFC3CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configuration.Common", "Configuration\Configuration.Common\Configuration.Common.csproj", "{D1D2CB33-B5B4-4663-8FA2-C8045B1472EF}"
 EndProject
