@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.External.PartnerApi.Contracts.Enums;
+﻿namespace Brunda.External.PartnerApi.Contracts.Enums;
 
 public enum ResidenceContractType
 {

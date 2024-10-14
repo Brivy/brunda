@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.External.PartnerApi.Contracts.Constants;
+﻿namespace Brunda.External.PartnerApi.Contracts.Constants;
 
 public static class PartnerApiConstants
 {

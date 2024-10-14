@@ -1,8 +1,8 @@
-﻿using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
+﻿using Brunda.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Configurations;
+namespace Brunda.Repositories.Ranking.EntityFramework.Configurations;
 
 internal class ForSaleRankingConfiguration : IEntityTypeConfiguration<ForSaleRanking>
 {

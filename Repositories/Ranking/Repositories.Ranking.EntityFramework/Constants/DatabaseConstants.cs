@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
+﻿namespace Brunda.Repositories.Ranking.EntityFramework.Constants;
 
 internal static class DatabaseConstants
 {

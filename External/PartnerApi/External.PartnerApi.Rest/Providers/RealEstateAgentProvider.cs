@@ -1,16 +1,16 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Models;
-using Funda.Assigment.External.PartnerApi.Contracts.Options;
-using Funda.Assigment.External.PartnerApi.Contracts.Providers;
-using Funda.Assigment.External.PartnerApi.Rest.Clients;
-using Funda.Assigment.External.PartnerApi.Rest.Configuration;
-using Funda.Assigment.External.PartnerApi.Rest.Constants;
-using Funda.Assigment.External.PartnerApi.Rest.Extensions;
+﻿using Brunda.External.PartnerApi.Contracts.Models;
+using Brunda.External.PartnerApi.Contracts.Options;
+using Brunda.External.PartnerApi.Contracts.Providers;
+using Brunda.External.PartnerApi.Rest.Clients;
+using Brunda.External.PartnerApi.Rest.Configuration;
+using Brunda.External.PartnerApi.Rest.Constants;
+using Brunda.External.PartnerApi.Rest.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Polly.Registry;
 using Refit;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Providers;
+namespace Brunda.External.PartnerApi.Rest.Providers;
 
 internal class RealEstateAgentProvider(
     IPartnerApiClient partnerApiClient,

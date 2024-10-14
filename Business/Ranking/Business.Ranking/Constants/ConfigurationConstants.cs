@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Business.Ranking.Constants;
+﻿namespace Brunda.Business.Ranking.Constants;
 
 internal static class ConfigurationConstants
 {

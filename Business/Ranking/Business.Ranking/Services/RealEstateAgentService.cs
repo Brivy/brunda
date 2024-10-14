@@ -1,12 +1,12 @@
-﻿using Funda.Assigment.Business.Ranking.Contracts;
-using Funda.Assigment.External.PartnerApi.Contracts.Constants;
-using Funda.Assigment.External.PartnerApi.Contracts.Enums;
-using Funda.Assigment.External.PartnerApi.Contracts.Models;
-using Funda.Assigment.External.PartnerApi.Contracts.Options;
-using Funda.Assigment.External.PartnerApi.Contracts.Providers;
+﻿using Brunda.Business.Ranking.Contracts;
+using Brunda.External.PartnerApi.Contracts.Constants;
+using Brunda.External.PartnerApi.Contracts.Enums;
+using Brunda.External.PartnerApi.Contracts.Models;
+using Brunda.External.PartnerApi.Contracts.Options;
+using Brunda.External.PartnerApi.Contracts.Providers;
 using Microsoft.Extensions.Logging;
 
-namespace Funda.Assigment.Business.Ranking.Services;
+namespace Brunda.Business.Ranking.Services;
 
 internal class RealEstateAgentService(
     IRealEstateAgentProvider realEstateAgentProvider,

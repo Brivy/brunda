@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Configuration.Common.Extensions;
-using Funda.Assigment.External.PartnerApi.Contracts.Providers;
-using Funda.Assigment.External.PartnerApi.Rest.Clients;
-using Funda.Assigment.External.PartnerApi.Rest.Configuration;
-using Funda.Assigment.External.PartnerApi.Rest.Constants;
-using Funda.Assigment.External.PartnerApi.Rest.Providers;
+﻿using Brunda.Configuration.Common.Extensions;
+using Brunda.External.PartnerApi.Contracts.Providers;
+using Brunda.External.PartnerApi.Rest.Clients;
+using Brunda.External.PartnerApi.Rest.Configuration;
+using Brunda.External.PartnerApi.Rest.Constants;
+using Brunda.External.PartnerApi.Rest.Providers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
@@ -11,7 +11,7 @@ using Polly.Retry;
 using Refit;
 using System.Threading.RateLimiting;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Extensions;
+namespace Brunda.External.PartnerApi.Rest.Extensions;
 
 public static class ServiceCollectionExtensions
 {

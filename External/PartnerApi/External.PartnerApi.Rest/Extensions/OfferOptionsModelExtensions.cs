@@ -1,7 +1,7 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Options;
-using Funda.Assigment.External.PartnerApi.Rest.QueryParameters;
+﻿using Brunda.External.PartnerApi.Contracts.Options;
+using Brunda.External.PartnerApi.Rest.QueryParameters;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Extensions;
+namespace Brunda.External.PartnerApi.Rest.Extensions;
 
 internal static class OfferOptionsModelExtensions
 {

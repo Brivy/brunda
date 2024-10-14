@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.Ranking.Contracts.Models;
+﻿namespace Brunda.Repositories.Ranking.Contracts.Models;
 
 public record ForSaleRankingModel
 {

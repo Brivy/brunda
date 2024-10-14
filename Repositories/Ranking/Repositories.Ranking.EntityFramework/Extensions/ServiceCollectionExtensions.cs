@@ -1,13 +1,13 @@
-﻿using Funda.Assigment.Configuration.Common.Extensions;
-using Funda.Assigment.Repositories.Ranking.Contracts.Repositories;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Configuration;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Repositories;
+﻿using Brunda.Configuration.Common.Extensions;
+using Brunda.Repositories.Ranking.Contracts.Repositories;
+using Brunda.Repositories.Ranking.EntityFramework.Configuration;
+using Brunda.Repositories.Ranking.EntityFramework.Constants;
+using Brunda.Repositories.Ranking.EntityFramework.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Extensions;
+namespace Brunda.Repositories.Ranking.EntityFramework.Extensions;
 
 public static class ServiceCollectionExtensions
 {

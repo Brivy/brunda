@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Responses;
+namespace Brunda.External.PartnerApi.Rest.Responses;
 
 internal record PageResponse
 {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Funda.Assigment.Business.Ranking.Configuration;
+namespace Brunda.Business.Ranking.Configuration;
 
 internal record RealEstateAgentRankerSettings
 {

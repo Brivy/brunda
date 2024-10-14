@@ -1,6 +1,6 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Models;
+﻿using Brunda.External.PartnerApi.Contracts.Models;
 
-namespace Funda.Assigment.Business.Ranking.Contracts;
+namespace Brunda.Business.Ranking.Contracts;
 
 internal interface IRealEstateAgentService
 {

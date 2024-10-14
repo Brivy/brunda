@@ -1,10 +1,10 @@
-﻿using Funda.Assigment.Business.Ranking.Configuration;
-using Funda.Assigment.Business.Ranking.Contracts;
-using Funda.Assigment.Repositories.Ranking.Contracts.Models;
+﻿using Brunda.Business.Ranking.Configuration;
+using Brunda.Business.Ranking.Contracts;
+using Brunda.Repositories.Ranking.Contracts.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Funda.Assigment.Business.Ranking;
+namespace Brunda.Business.Ranking;
 
 internal class RealEstateAgentRanker(
     IForSaleRankingService forSaleRankingService,

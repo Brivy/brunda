@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
+﻿namespace Brunda.Repositories.Ranking.EntityFramework.Entities;
 
 internal class ForSaleRanking
 {

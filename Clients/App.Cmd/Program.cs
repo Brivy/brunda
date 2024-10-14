@@ -1,6 +1,6 @@
-﻿using Funda.Assigment.Business.Ranking.Contracts;
-using Funda.Assigment.Business.Ranking.Extensions;
-using Funda.Assigment.External.PartnerApi.Rest.Extensions;
+﻿using Brunda.Business.Ranking.Contracts;
+using Brunda.Business.Ranking.Extensions;
+using Brunda.External.PartnerApi.Rest.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

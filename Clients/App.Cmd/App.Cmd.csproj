@@ -6,7 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<AssemblyName>Funda.Assigment.$(MSBuildProjectName)</AssemblyName>
-		<RootNamespace>Funda.Assigment.$(MSBuildProjectName)</RootNamespace>
+		<RootNamespace>Brunda.$(MSBuildProjectName)</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>

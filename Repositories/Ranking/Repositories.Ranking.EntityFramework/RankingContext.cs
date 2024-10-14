@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Repositories.Ranking.EntityFramework.Configurations;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Constants;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
+﻿using Brunda.Repositories.Ranking.EntityFramework.Configurations;
+using Brunda.Repositories.Ranking.EntityFramework.Constants;
+using Brunda.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Funda.Assigment.Repositories.Ranking.EntityFramework;
+namespace Brunda.Repositories.Ranking.EntityFramework;
 
 internal class RankingContext : DbContext
 {

@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Business.Ranking.Contracts;
-using Funda.Assigment.Repositories.Ranking.Contracts.Models;
-using Funda.Assigment.Repositories.Ranking.Contracts.Repositories;
+﻿using Brunda.Business.Ranking.Contracts;
+using Brunda.Repositories.Ranking.Contracts.Models;
+using Brunda.Repositories.Ranking.Contracts.Repositories;
 using Microsoft.Extensions.Logging;
 
-namespace Funda.Assigment.Business.Ranking.Services;
+namespace Brunda.Business.Ranking.Services;
 
 internal class ForSaleWithGardenRankingService(
     IForSaleWithGardenRankingRepository forSaleWithGardenRankingRepository,
