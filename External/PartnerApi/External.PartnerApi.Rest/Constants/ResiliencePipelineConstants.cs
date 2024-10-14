@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.External.PartnerApi.Rest.Constants;
+﻿namespace Brunda.External.PartnerApi.Rest.Constants;
 
 internal static class ResiliencePipelineConstants
 {

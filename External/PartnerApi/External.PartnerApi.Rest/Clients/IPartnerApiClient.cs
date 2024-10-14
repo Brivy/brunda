@@ -1,8 +1,8 @@
-﻿using Funda.Assigment.External.PartnerApi.Rest.QueryParameters;
-using Funda.Assigment.External.PartnerApi.Rest.Responses;
+﻿using Brunda.External.PartnerApi.Rest.QueryParameters;
+using Brunda.External.PartnerApi.Rest.Responses;
 using Refit;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Clients;
+namespace Brunda.External.PartnerApi.Rest.Clients;
 
 internal interface IPartnerApiClient
 {

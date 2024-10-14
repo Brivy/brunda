@@ -1,6 +1,6 @@
-﻿using Funda.Assigment.Repositories.Ranking.Contracts.Models;
+﻿using Brunda.Repositories.Ranking.Contracts.Models;
 
-namespace Funda.Assigment.Business.Ranking.Contracts;
+namespace Brunda.Business.Ranking.Contracts;
 
 internal interface IForSaleWithGardenRankingService
 {

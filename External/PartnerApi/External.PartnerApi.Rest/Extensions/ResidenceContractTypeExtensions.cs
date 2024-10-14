@@ -1,7 +1,7 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Enums;
+﻿using Brunda.External.PartnerApi.Contracts.Enums;
 using System.ComponentModel;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Extensions;
+namespace Brunda.External.PartnerApi.Rest.Extensions;
 
 internal static class ResidenceContractTypeExtensions
 {

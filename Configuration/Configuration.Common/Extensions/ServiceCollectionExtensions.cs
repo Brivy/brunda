@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Funda.Assigment.Configuration.Common.Extensions;
+namespace Brunda.Configuration.Common.Extensions;
 
 public static class ServiceCollectionExtensions
 {

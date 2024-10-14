@@ -1,6 +1,6 @@
 ﻿using Refit;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.QueryParameters;
+namespace Brunda.External.PartnerApi.Rest.QueryParameters;
 
 internal record OfferQueryParameters
 {

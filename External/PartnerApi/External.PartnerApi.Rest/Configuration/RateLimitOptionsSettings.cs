@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Configuration;
+namespace Brunda.External.PartnerApi.Rest.Configuration;
 
 internal record RateLimitOptionsSettings
 {

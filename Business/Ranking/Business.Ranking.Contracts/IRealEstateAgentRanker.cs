@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.Business.Ranking.Contracts;
+﻿namespace Brunda.Business.Ranking.Contracts;
 
 public interface IRealEstateAgentRanker
 {

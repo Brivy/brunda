@@ -1,4 +1,4 @@
-﻿namespace Funda.Assigment.External.PartnerApi.Contracts.Models;
+﻿namespace Brunda.External.PartnerApi.Contracts.Models;
 
 public record PageModel<TResult>
 {

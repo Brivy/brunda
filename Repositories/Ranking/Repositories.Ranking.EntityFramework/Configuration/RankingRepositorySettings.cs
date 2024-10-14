@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Configuration;
+namespace Brunda.Repositories.Ranking.EntityFramework.Configuration;
 
 internal record RankingRepositorySettings
 {

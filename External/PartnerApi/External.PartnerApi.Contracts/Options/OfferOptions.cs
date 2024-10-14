@@ -1,6 +1,6 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Enums;
+﻿using Brunda.External.PartnerApi.Contracts.Enums;
 
-namespace Funda.Assigment.External.PartnerApi.Contracts.Options;
+namespace Brunda.External.PartnerApi.Contracts.Options;
 
 public record OfferOptions
 {

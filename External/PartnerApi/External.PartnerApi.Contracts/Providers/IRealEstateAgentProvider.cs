@@ -1,7 +1,7 @@
-﻿using Funda.Assigment.External.PartnerApi.Contracts.Models;
-using Funda.Assigment.External.PartnerApi.Contracts.Options;
+﻿using Brunda.External.PartnerApi.Contracts.Models;
+using Brunda.External.PartnerApi.Contracts.Options;
 
-namespace Funda.Assigment.External.PartnerApi.Contracts.Providers;
+namespace Brunda.External.PartnerApi.Contracts.Providers;
 
 public interface IRealEstateAgentProvider
 {

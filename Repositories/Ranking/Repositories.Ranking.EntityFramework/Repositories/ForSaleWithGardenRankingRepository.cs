@@ -1,9 +1,9 @@
-﻿using Funda.Assigment.Repositories.Ranking.Contracts.Models;
-using Funda.Assigment.Repositories.Ranking.Contracts.Repositories;
-using Funda.Assigment.Repositories.Ranking.EntityFramework.Entities;
+﻿using Brunda.Repositories.Ranking.Contracts.Models;
+using Brunda.Repositories.Ranking.Contracts.Repositories;
+using Brunda.Repositories.Ranking.EntityFramework.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Funda.Assigment.Repositories.Ranking.EntityFramework.Repositories;
+namespace Brunda.Repositories.Ranking.EntityFramework.Repositories;
 
 internal class ForSaleWithGardenRankingRepository(RankingContext context) : IForSaleWithGardenRankingRepository
 {
