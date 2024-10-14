@@ -15,8 +15,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\Business\Ranking\Business.Ranking\Business.Ranking.csproj" />
 	  <ProjectReference Include="..\..\External\PartnerApi\External.PartnerApi.Rest\External.PartnerApi.Rest.csproj" />
+	  <ProjectReference Include="..\..\Modules\Ranking\Modules.Ranking\Modules.Ranking.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>Brunda.$(MSBuildProjectName)</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\External\PartnerApi\External.PartnerApi.Contracts\External.PartnerApi.Contracts.csproj" />
+	  <ProjectReference Include="..\Modules.Ranking.Contracts\Modules.Ranking.Contracts.csproj" />
+	  <ProjectReference Include="..\Modules.Ranking.Repositories.EntityFramework\Modules.Ranking.Repositories.EntityFramework.csproj" />
+	</ItemGroup>
+
+</Project>
