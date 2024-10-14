@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Funda.Assigment.External.PartnerApi.Rest.Models;
+namespace Funda.Assigment.External.PartnerApi.Rest.Responses;
 
-internal record ResidenceModel
+internal record ResidenceResponse
 {
     [JsonPropertyName("MakelaarId")]
     public required int RealEstateAgentId { get; init; }

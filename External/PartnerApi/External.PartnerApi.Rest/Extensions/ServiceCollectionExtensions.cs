@@ -1,7 +1,9 @@
 ﻿using Funda.Assigment.Configuration.Common.Extensions;
+using Funda.Assigment.External.PartnerApi.Contracts.Providers;
 using Funda.Assigment.External.PartnerApi.Rest.Clients;
 using Funda.Assigment.External.PartnerApi.Rest.Configuration;
 using Funda.Assigment.External.PartnerApi.Rest.Constants;
+using Funda.Assigment.External.PartnerApi.Rest.Providers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Polly;
@@ -17,7 +19,8 @@ public static class ServiceCollectionExtensions
     {
         var partnerApiConfiguration = configuration.GetRequiredSection(ConfigurationConstants.PartnerApiSectionKey);
         _ = services
-            .AddOptionsWithValidation<PartnerApiSettings>(partnerApiConfiguration);
+            .AddOptionsWithValidation<PartnerApiSettings>(partnerApiConfiguration)
+            .AddScoped<IRealEstateAgentProvider, RealEstateAgentProvider>();
 
         _ = services
             .AddResiliencePipeline(ResiliencePipelineConstants.PartnerApiKey, (builder, context) =>
@@ -36,8 +39,8 @@ public static class ServiceCollectionExtensions
                     .AddRateLimiter(new FixedWindowRateLimiter(
                         new FixedWindowRateLimiterOptions
                         {
-                            PermitLimit = resilienceOptions.RateLimitOptions.PermitLimt,
-                            Window = resilienceOptions.RateLimitOptions.LimtiWindow,
+                            PermitLimit = resilienceOptions.RateLimitOptions.PermitLimit,
+                            Window = resilienceOptions.RateLimitOptions.LimitWindow,
                             QueueLimit = 0,
                             QueueProcessingOrder = QueueProcessingOrder.OldestFirst
                         }));
