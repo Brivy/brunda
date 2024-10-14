@@ -1,6 +1,6 @@
-﻿using Brunda.Business.Ranking.Contracts;
-using Brunda.Business.Ranking.Extensions;
-using Brunda.External.PartnerApi.Rest.Extensions;
+﻿using Brunda.External.PartnerApi.Rest.Extensions;
+using Brunda.Modules.Ranking.Contracts;
+using Brunda.Modules.Ranking.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

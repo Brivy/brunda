@@ -13,27 +13,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "External.PartnerApi.Rest", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "External.PartnerApi.Contracts", "External\PartnerApi\External.PartnerApi.Contracts\External.PartnerApi.Contracts.csproj", "{AA84EACC-C434-418A-8262-50A2DDA5BE85}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{5BF029F8-6633-4943-B6BA-C1FAC4B01B48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Ranking.Repositories.EntityFramework", "Modules\Ranking\Modules.Ranking.Repositories.EntityFramework\Modules.Ranking.Repositories.EntityFramework.csproj", "{8E11A64F-C466-4D4C-AD4F-520418DC2666}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Ranking.EntityFramework", "Repositories\Ranking\Repositories.Ranking.EntityFramework\Repositories.Ranking.EntityFramework.csproj", "{8E11A64F-C466-4D4C-AD4F-520418DC2666}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{0ABF6BF5-3649-4D4D-B99E-3B2AF3D98320}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0ABF6BF5-3649-4D4D-B99E-3B2AF3D98320}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories.Ranking.Contracts", "Repositories\Ranking\Repositories.Ranking.Contracts\Repositories.Ranking.Contracts.csproj", "{491D1225-2889-483B-A4DC-5370F875C0A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Ranking.Repositories.Contracts", "Modules\Ranking\Modules.Ranking.Repositories.Contracts\Modules.Ranking.Repositories.Contracts.csproj", "{491D1225-2889-483B-A4DC-5370F875C0A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ranking", "Ranking", "{5C8A0DDD-428C-408A-A2D9-B52DE1A86350}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Ranking", "Business\Ranking\Business.Ranking\Business.Ranking.csproj", "{995CF89B-B309-4F79-B5A1-2E3218E17C68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Ranking", "Modules\Ranking\Modules.Ranking\Modules.Ranking.csproj", "{995CF89B-B309-4F79-B5A1-2E3218E17C68}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Ranking.Contracts", "Business\Ranking\Business.Ranking.Contracts\Business.Ranking.Contracts.csproj", "{B67BB104-2D68-4269-9D3E-E61C85F2CE4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modules.Ranking.Contracts", "Modules\Ranking\Modules.Ranking.Contracts\Modules.Ranking.Contracts.csproj", "{B67BB104-2D68-4269-9D3E-E61C85F2CE4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PartnerApi", "PartnerApi", "{509A196D-9D6E-4BC7-8910-946EB1ADF2D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{51AE942B-F432-4076-8C88-1BF3C5295F7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ranking", "Ranking", "{2ECB181A-2F86-4B30-B77F-D92531FFC3CC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration.Common", "Configuration\Configuration.Common\Configuration.Common.csproj", "{D1D2CB33-B5B4-4663-8FA2-C8045B1472EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{9FAB1526-A909-4990-83DC-968F020D5798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,14 +79,14 @@ Global
 		{0BA94651-8442-47CF-B105-A771EDB8821C} = {2A245D5E-8293-4516-88BC-D972DDEC5C04}
 		{E8BB42B7-3C52-4074-9A95-DEA65107713F} = {509A196D-9D6E-4BC7-8910-946EB1ADF2D3}
 		{AA84EACC-C434-418A-8262-50A2DDA5BE85} = {509A196D-9D6E-4BC7-8910-946EB1ADF2D3}
-		{8E11A64F-C466-4D4C-AD4F-520418DC2666} = {2ECB181A-2F86-4B30-B77F-D92531FFC3CC}
-		{491D1225-2889-483B-A4DC-5370F875C0A2} = {2ECB181A-2F86-4B30-B77F-D92531FFC3CC}
+		{8E11A64F-C466-4D4C-AD4F-520418DC2666} = {9FAB1526-A909-4990-83DC-968F020D5798}
+		{491D1225-2889-483B-A4DC-5370F875C0A2} = {9FAB1526-A909-4990-83DC-968F020D5798}
 		{5C8A0DDD-428C-408A-A2D9-B52DE1A86350} = {0ABF6BF5-3649-4D4D-B99E-3B2AF3D98320}
 		{995CF89B-B309-4F79-B5A1-2E3218E17C68} = {5C8A0DDD-428C-408A-A2D9-B52DE1A86350}
 		{B67BB104-2D68-4269-9D3E-E61C85F2CE4E} = {5C8A0DDD-428C-408A-A2D9-B52DE1A86350}
 		{509A196D-9D6E-4BC7-8910-946EB1ADF2D3} = {489795D2-3B8D-4841-9CE3-C88564060831}
-		{2ECB181A-2F86-4B30-B77F-D92531FFC3CC} = {5BF029F8-6633-4943-B6BA-C1FAC4B01B48}
 		{D1D2CB33-B5B4-4663-8FA2-C8045B1472EF} = {51AE942B-F432-4076-8C88-1BF3C5295F7E}
+		{9FAB1526-A909-4990-83DC-968F020D5798} = {5C8A0DDD-428C-408A-A2D9-B52DE1A86350}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E9CBBC30-E0AA-4638-AA4A-FC5BB1D32F8C}
