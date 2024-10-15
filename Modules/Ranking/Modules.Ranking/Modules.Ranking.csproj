@@ -13,4 +13,9 @@
 	  <ProjectReference Include="..\Modules.Ranking.Repositories.EntityFramework\Modules.Ranking.Repositories.EntityFramework.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+		<InternalsVisibleTo Include="$(AssemblyName).Tests" />
+	</ItemGroup>
+
 </Project>
