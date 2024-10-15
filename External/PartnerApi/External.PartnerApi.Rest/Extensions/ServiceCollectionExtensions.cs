@@ -33,8 +33,7 @@ public static class ServiceCollectionExtensions
                     {
                         BackoffType = DelayBackoffType.Exponential,
                         Delay = resilienceOptions.RetryOptions.Delay,
-                        MaxRetryAttempts = resilienceOptions.RetryOptions.MaxRetryAttempts,
-                        UseJitter = true
+                        MaxRetryAttempts = resilienceOptions.RetryOptions.MaxRetryAttempts
                     })
                     .AddRateLimiter(new FixedWindowRateLimiter(
                         new FixedWindowRateLimiterOptions
