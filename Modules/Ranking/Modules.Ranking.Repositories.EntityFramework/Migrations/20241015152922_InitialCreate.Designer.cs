@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Migrations
+namespace Brunda.Modules.Ranking.Repositories.EntityFramework.Migrations
 {
     [DbContext(typeof(RankingContext))]
-    [Migration("20241013150353_InitialCreate")]
+    [Migration("20241015152922_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -25,7 +25,7 @@ namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Mig
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities.ForSaleRanking", b =>
+            modelBuilder.Entity("Brunda.Modules.Ranking.Repositories.EntityFramework.Entities.ForSaleRanking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Mig
                     b.ToTable("ForSaleRanking", "dbo");
                 });
 
-            modelBuilder.Entity("Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Entities.ForSaleWithGardenRanking", b =>
+            modelBuilder.Entity("Brunda.Modules.Ranking.Repositories.EntityFramework.Entities.ForSaleWithGardenRanking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
