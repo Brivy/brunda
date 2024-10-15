@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Funda.Assigment.Repositories.RealEstateAgentRanker.EntityFramework.Migrations
+namespace Brunda.Modules.Ranking.Repositories.EntityFramework.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

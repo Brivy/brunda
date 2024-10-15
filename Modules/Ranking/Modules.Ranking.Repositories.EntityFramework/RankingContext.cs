@@ -17,7 +17,7 @@ internal class RankingContext : DbContext
             return;
         }
 
-        _ = optionsBuilder.UseSqlServer("Server=.;Database=FundaAssigment;Trusted_Connection=True;TrustServerCertificate=True", options =>
+        _ = optionsBuilder.UseSqlServer("Server=.;Database=Brunda;Trusted_Connection=True;TrustServerCertificate=True", options =>
         {
             _ = options.MigrationsHistoryTable("__RankingContextMigrations", DatabaseConstants.RankingSchemaName);
         });
