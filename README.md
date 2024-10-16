@@ -65,7 +65,7 @@ _ = services
     });
 ```
 
-## That architecture looks over-engineered???
+## That architecture looks over-engineered?
 
 Yeah, probably could have done this in one library, but that's not the point.
 I wanted to demonstrate my capabilities of creating an architecture that is very modulair and easy to extend (and I wanted to build something I was also proud of).
@@ -83,6 +83,19 @@ This architecture also heavily relies on using the `public` vs `internal` keywor
 - Because `Modules.Ranking` has the relationship with `Modules.Ranking.Contracts`, `Clients.Cmd` can interact with the public contracts that are exposed. This way, `Clients.Cmd` can still interact with the business logic within the `Modules.Ranking` without knowing the implementation, hurray!.
 
 There are a ton more examples of this in the project, please take a look for yourself or contact me for the full explanation.
+
+## What's left to improve
+
+While this architecture has proven itself in some really big projects, I've some stuff I really want refine.
+Basically, it comes down to three things:
+
+- Making it more like a modulair monolith with DDD.
+- Reducing the amount of projects (trust me, it can grow very quickly).
+- Exposing more ways to interact with the modules itself.
+
+While my knowledge of DDD is very basic, I see potential for this project. For example, the module `Ranking` can benefit from this approach by creating a domain project. This will probably also reduce the amount of `*.Contract` projects and it will come with less mapping between the layers within the module itself. It's now also very difficult to navigate from one module to another, but the question is also if that is desirable.
+
+But given the time constraints, I'll let this be it for now and maybe I'll revise it in the near future...
 
 ## Where are all the cool stuff
 
